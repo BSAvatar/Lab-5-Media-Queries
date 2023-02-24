@@ -4,7 +4,7 @@
         display: grid;
         grid-template-columns: auto;
     background-color:aquamarine;
-    padding: 30px; }
+    padding: 60px; }
 }
 
 @media screen and (min-width: 1600px) {
@@ -12,14 +12,14 @@
 display: grid;
 grid-template-columns: auto auto auto;
 background-color: blueviolet;
-padding: 30px;
+padding: 60px;
 
     }    
 }
 
 img{
     display:block;
-    width:70%;
+    width:80%;
     margin-left: auto;
     margin-right: auto;
 
@@ -27,8 +27,8 @@ img{
 
     .grid-item{
 background-color: aqua;
-border: 1px solid plum ;
-padding:20px;
+border: 10px solid plum ;
+padding:40px;
     }
 
     h2{text-align: center;
