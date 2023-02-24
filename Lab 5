@@ -1,0 +1,45 @@
+@import "normalize.css";
+@media screen and (max-width: 900px) {
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+    background-color:aquamarine;
+    padding: 30px; }
+}
+
+@media screen and (min-width: 1600px) {
+    .grid{
+display: grid;
+grid-template-columns: auto auto auto;
+background-color: blueviolet;
+padding: 30px;
+
+    }    
+}
+
+img{
+    display:block;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    .grid-item{
+background-color: aqua;
+border: 1px solid plum ;
+padding:20px;
+    }
+
+    h2{text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+
+    }
+
+    p{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: small;
+
+    }
